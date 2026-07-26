@@ -1,0 +1,7 @@
+{
+  "labels": ["dependencies"],
+  "extends": ["config:js-app"],
+  "baseBranchPatterns": ["main"],
+  "automerge": false,
+  "minimumReleaseAge": "1 day"
+}

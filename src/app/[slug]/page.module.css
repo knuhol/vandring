@@ -1,0 +1,95 @@
+.logo {
+  width: min(280px, 100%);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  padding: 20px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.cardDisabled {
+  opacity: 0.65;
+}
+
+.cardDisabled h2,
+.cardDisabled p {
+  color: #666;
+}
+
+.link {
+  color: #0b6b4f;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #0b6b4f;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.button:hover {
+  background: #09533d;
+}
+
+.buttonDisabled {
+  background: #bdbdbd;
+  color: #fff;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.buttonDisabled:hover {
+  background: #bdbdbd;
+  text-decoration: none;
+}
+
+.passwordNote {
+  margin-top: 10px;
+}
+
+.passwordCode {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid #f3d7e6;
+  border-radius: 8px;
+  background: #fdf0f7;
+  color: #7a3b5b;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.6rem;
+    overflow-wrap: anywhere;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}
