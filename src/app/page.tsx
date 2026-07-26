@@ -54,7 +54,7 @@ const getHikes = async (): Promise<Hike[]> => {
   cacheTag('hikes')
 
   const response = await fetch(
-    'https://cjfkbcgbpxxvejfvexwi.supabase.co/rest/v1/hike?select=*&order=id.desc',
+    'https://cjfkbcgbpxxvejfvexwi.supabase.co/rest/v1/hike?select=*&order=start_date.desc',
     {
       headers: {
         apikey: process.env.SUPABASE_PUBLISHABLE_KEY!,
