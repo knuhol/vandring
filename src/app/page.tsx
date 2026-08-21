@@ -11,7 +11,7 @@ const HomePage = async () => {
   return (
     <>
       <header className="header">
-        <img className="profile-photo" src="/knut.jpg" alt="Knut" />
+        <img className="profile-photo" src="/knut.png" alt="Knut" />
 
         <h1 className="title">🥾 Knuts vandringar</h1>
         <p className="subtitle">Följ mina vandringar och fjälläventyr runt om i Sverige 🇸🇪</p>

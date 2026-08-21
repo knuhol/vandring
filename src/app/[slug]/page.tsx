@@ -56,7 +56,7 @@ export default async function HikePage({ params }: Props) {
         <Link href="/">
           <Image
             className="profile-photo"
-            src="/knut.jpg"
+            src="/knut.png"
             alt="Knut på leden"
             width={132}
             height={132}
