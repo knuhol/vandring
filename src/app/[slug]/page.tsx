@@ -98,7 +98,7 @@ export default async function HikePage({ params }: Props) {
 
             <p className={styles.passwordNote}>
               <strong>Lösenord:</strong>{' '}
-              <code className={styles.passwordCode}>Jämtlandsfjällen2026</code>
+              <code className={styles.passwordCode}>{hike.live_position_password}</code>
             </p>
 
             <a
